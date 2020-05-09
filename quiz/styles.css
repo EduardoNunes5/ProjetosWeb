@@ -1,0 +1,46 @@
+/*@media only screen and (max-device-width: 800px){
+    body {
+        height: 600px;
+        width: 500px;
+        margin: auto;
+    }
+}
+*/
+body{
+    margin: 0;
+    background-image: url("/imgs/background1.jpg");
+    font-family: sans-serif, arial;
+    background-size: cover;
+}
+#header{
+    height: 100px;
+    background-color: rgba(42, 28, 16, 0.7);
+    border-top: 1px solid transparent;
+    margin-bottom: 50px;
+}
+
+#header h1{
+    color: rgb(198, 95, 0)
+}
+#button-div{
+    text-align: center;
+}
+#start-button{
+    height: 150px;
+    width:50%;
+    background-color: rgba(201, 137, 53, 0.51);
+    border-radius: 25%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    height: 35px;
+    width: 100%;
+    padding-top: 20px;
+    background-color: rgba(42, 28, 16, 0.7);
+    text-align: center;
+    font-weight: bold;
+}

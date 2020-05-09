@@ -1,0 +1,7 @@
+{
+    "perguntas":[{
+        "pergunta": "Quem possui liberação de madeira?",
+        "respostas": ["Sasuke", "Kakashi", "Moegi", "Udon"],
+        "respostaCorreta": "Moegi"
+    }]
+}
