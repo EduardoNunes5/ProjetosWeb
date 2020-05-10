@@ -10,11 +10,10 @@
         "respostaCorreta": "Bashosen"
     },
     {
-        {
             "pergunta":"Quem é o personagem? \nCabelo loiro\nFranja na lateral direita\nCabelo preso como um rabo de cavalo\nOlhos azuis",
             "respostas":["Deidara", "Ino Yamanaka", "Temari", "Minato Namikaze"],
             "respostaCorreta": "Ino"
-        },
+    },
     {
         "pergunta":"O que é o elemento água?",
         "respostas":["Futon", "Suiton", "Katon", "Doton"],
