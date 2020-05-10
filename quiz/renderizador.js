@@ -9,3 +9,9 @@ export function render(template, node){
         }
     }
 }
+
+
+export function clear(node){
+    if(!node) return;
+    node.innerHTML = "";
+}

@@ -3,5 +3,34 @@
         "pergunta": "Quem possui liberação de madeira?",
         "respostas": ["Sasuke", "Kakashi", "Moegi", "Udon"],
         "respostaCorreta": "Moegi"
+    },
+    {
+        "pergunta":"Qual dessas armas foi a do Sábio dos seis caminhos?",
+        "respostas":["Hiramekarei","Kusanagi","Shibuki", "Bashosen"],
+        "respostaCorreta": "Bashosen"
+    },
+    {
+        "pergunta":"Quem é o personagem?
+        * Cabelo loiro
+        * Franja na lateral direita
+        * Preso como um rabo de cavalo
+        * Olhos azuis",
+        "respostas":["Deidara", "Ino Yamanaka", "Temari", "Minato Namikaze"],
+        "respostaCorreta": "Ino"
+    },
+    {
+        "pergunta":"O que é o elemento água?",
+        "respostas":["Futon", "Suiton", "Katon", "Doton"],
+        "respostaCorreta": "Suiton"
+    },
+    {
+        "pergunta":"A partir de que idade um jovem pode entrar para a academia Shinobi de Konoha?",
+        "respostas":["7 anos de idade", "8 anos de idade", "9 anos de idade", "10 anos de idade"],
+        "respostaCorreta": "9 anos"
+    },
+    {
+        "pergunta":"Quem inventou o jutsu clones das sombras?",
+        "respostas":["Hashirama Senju","Minato Namikaze", "Naruto Uzumaki", "Tobirama Senju"],
+        "respostaCorreta": "Tobirama Senju"
     }]
 }

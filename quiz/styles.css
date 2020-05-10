@@ -20,10 +20,16 @@ body{
 }
 
 #header h1{
+    margin-left: 50px;
     color: rgb(198, 95, 0)
 }
 #button-div{
     text-align: center;
+}
+
+#button{
+    color:blue;
+    background-color:yellow;
 }
 #start-button{
     height: 150px;
@@ -32,6 +38,15 @@ body{
     border-radius: 25%;
     font-weight: bold;
     font-size: 20px;
+}
+
+
+#pergunta{
+    text-align: center;
+}
+
+#lista-perguntas{
+    text-align: center;
 }
 
 footer{

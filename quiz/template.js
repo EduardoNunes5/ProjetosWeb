@@ -1,2 +1,0 @@
-
-$ul = document.createElement('ul');
