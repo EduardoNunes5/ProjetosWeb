@@ -8,8 +8,8 @@ img{
 }
 
 body{
-    background-image: url("../imgs/background1.jpg");
-    object-fit: cover;
+    background-image: url("../imgs/bk5.png");
+    background-position: center top;
 }
 
 #header{
@@ -43,7 +43,7 @@ body{
 
 #lista-perguntas li{
     list-style: none;
-    color: gray;
+    color: white;
     background-color: rgba(42, 28, 16, 0.7);
     display: inline-block;
     width: 40%;
@@ -73,7 +73,7 @@ li:hover{
 button{
     width: 40%;
     height: 40px;
-    color: black;
+    color: white;
     background-color: rgba(42, 28, 16, 0.7);
     font-weight: bold;
 }
