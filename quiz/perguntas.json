@@ -10,9 +10,9 @@
         "respostaCorreta": "Bashosen"
     },
     {
-            "pergunta":"Quem é o personagem? \nCabelo loiro\nFranja na lateral direita\nCabelo preso como um rabo de cavalo\nOlhos azuis",
+            "pergunta":"Quem é o personagem? 1. Cabelo loiro 2. Franja na lateral direita 3. Cabelo preso como um rabo de cavalo 4. Olhos azuis",
             "respostas":["Deidara", "Ino Yamanaka", "Temari", "Minato Namikaze"],
-            "respostaCorreta": "Ino"
+            "respostaCorreta": "Ino Yamanaka"
     },
     {
         "pergunta":"O que é o elemento água?",
@@ -22,7 +22,7 @@
     {
         "pergunta":"A partir de que idade um jovem pode entrar para a academia Shinobi de Konoha?",
         "respostas":["7 anos de idade", "8 anos de idade", "9 anos de idade", "10 anos de idade"],
-        "respostaCorreta": "9 anos"
+        "respostaCorreta": "9 anos de idade"
     },
     {
         "pergunta":"Quem inventou o jutsu clones das sombras?",
