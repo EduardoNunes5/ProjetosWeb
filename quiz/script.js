@@ -65,4 +65,8 @@ function checkAnswer(event, answer, correctAnswer){
 
 
 questionsHandler();
-$button.addEventListener('click', questionsHandler);
+$button.addEventListener('click', function(){
+    clear($ul);
+    clear($pergunta);
+    questionsHandler();
+});
