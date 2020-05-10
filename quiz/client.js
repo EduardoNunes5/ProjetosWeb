@@ -7,5 +7,9 @@ export class Client{
         this.score +=1;
     }
 
+    resetScore(){
+        this.score = 0;
+    }
+
 
 }

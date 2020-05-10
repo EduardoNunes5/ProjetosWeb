@@ -2,24 +2,35 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="css/styles.css"
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     </head>
     <body>
         <script type="module" src='script.js'></script>
 
         <header id="header">
-            <h1>Quiz sobre personagens de Naruto</h1>
+            <h1>Quiz sobre o anime Naruto</h1>
         </header>
 
-        <p id="pergunta"></p>
-        <ul id='lista-perguntas'>
-        </ul>
-        <div id="button-div">
-            <button id="button" hidden>Próxima-pergunta</button>
-        </div>
-        <div id="result" hidden>
-            <p>Você acertou <span id="user-score"></span> de <span id="max-score"></span> questões!
-        </div>
+        <main>
+            <p id="pergunta"></p>
+
+            <ul id='lista-perguntas'>
+            </ul>
+
+            <div id="button-div">
+                <button id="button" hidden>Próxima pergunta</button>
+            </div>
+
+            <div id="result" hidden>
+                <p>Você acertou <span id="user-score"></span> de <span id="max-score"></span> questões!
+            </div>
+
+            <div id="restart-div">
+            <button id="restart-button" hidden>Recomeçar</button>
+            </div>
+        </main>
 
 
         <footer> by Eduardo</footer>

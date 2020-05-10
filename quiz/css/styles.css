@@ -1,107 +1,90 @@
-/*@media only screen and (max-device-width: 800px){
-    body {
-        height: 600px;
-        width: 500px;
-        margin: auto;
-    }
-}
-*/
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
-body, html{
-    height: 100%;
+
+img{
+    max-width: 100%;
 }
 
 body{
-    min-height: 100%;
-    margin: 0;
     background-image: url("../imgs/background1.jpg");
-    font-family: sans-serif, arial;
+    background-repeat: no-repeat;
     background-size: cover;
 }
+
 #header{
-    height: 70px;
     background-color: rgba(42, 28, 16, 0.7);
     border-top: 1px solid transparent;
-    margin-bottom: 40px;
+    height:60px;
 }
 
 #header h1{
-    margin-left: 50px;
     text-align: center;
     font-size: 20px;
     padding-top: 15px;
-    color: rgb(198, 95, 0)
-}
-#button-div{
-    text-align: center;
-    margin:auto;
-}
 
-#button{
-    background-color: rgba(198, 95, 0,0.8);
-    width: 200px;
-    height:40px;
 }
-
 
 #pergunta{
     text-align: center;
-    font-size: 20px;
     font-weight: bold;
-    color:white;
-    text-shadow: 3px 3px rgb(0, 0, 0);
-    margin: auto;
-    padding-bottom: 30px;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin-bottom: 25px;
 }
 
 
-ul{
+#lista-perguntas{
     text-align: center;
-    font-size: 25px;
+    width: 80%;
     margin: auto;
-    width:50%;
 }
 
 #lista-perguntas li{
-    display: inline-block;
-    margin-left: 15px;
     list-style: none;
     color: gray;
-    text-shadow: 2px 2px rgb(0, 0, 0);
     background-color: rgba(42, 28, 16, 0.7);
-    width: 70%;
-    padding-bottom: 15px;
-    padding: 15px;
-    margin: 5px;
+    display: inline-block;
+    padding: 10px 25px 10px 25px;
+    margin-bottom:  5px;
+    width:80%;
 }
 
 
+@media screen and (min-width: 1000px){
 
-#lista-perguntas li:hover{
-    transform: scale(1.1);
+    #lista-perguntas{
+        width: 40%;
+    }
+
 }
 
-footer{
-    position: absolute;
-    bottom: 0;
-    height: 35px;
-    width: 100%;
-    padding-top: 20px;
-    background-color: rgba(42, 28, 16, 0.7);
+#restart-div, #button-div{
     text-align: center;
-    font-weight: bold;
-    flex-shrink: 0;
 }
+
+button{
+    width: 100px;
+    color: black;
+    background-color: rgba(42, 28, 16, 0.7);
+}
+
 
 #result{
     text-align: center;
     font-size: 20px;
-    text-shadow: 2px 2px rgb(0, 0, 0);
-    color: gray;
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    font-size: 10px;
+    padding-top: 10px;
     background-color: rgba(42, 28, 16, 0.7);
-    width: 300px;
-    margin:auto
+    text-align: center;
+    color: gray;
 }

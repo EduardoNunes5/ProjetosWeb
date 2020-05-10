@@ -11,8 +11,9 @@ let $points = document.querySelector('#points');
 let $finalResult = document.querySelector('#result');
 let $score = document.querySelector('#user-score');
 let $maxScore = document.querySelector('#max-score');
-var questionController = JsonController.load();
+let $restartButon = document.querySelector('#restart-button');
 
+var questionController = JsonController.load();
 function questionsHandler(){
 
     questionController.then(controller => {
@@ -20,18 +21,11 @@ function questionsHandler(){
         if(question){
             render(question.pergunta, $pergunta);
             answersRender(question.respostas)
-            console.log(question.respostaCorreta)
             answersEvents(document.querySelectorAll("li"),question.respostaCorreta);
 
         }
         if(controller.isEmpty()){
-            $button.hidden = true;
-            $maxScore.innerText = controller.maxScore;
-            $score.innerText = client.score;
-            $finalResult.hidden = false;
-            clear($ul);
-            clear($pergunta);
-
+            endGame(controller);
         }
         controller.removeQuestion();
     })
@@ -57,7 +51,6 @@ function answersEvents(answers, correctAnswer){
 }
 
 let checkAnswer = function(event){
-    console.log(this)
     if(event.target.innerHTML === this){
         event.target.style.color = 'green';
         client.addScore();
@@ -69,6 +62,17 @@ let checkAnswer = function(event){
     stopClicks();
 
 }
+
+function endGame(controller){
+    $button.hidden = true;
+    $restartButon.hidden = false;
+    $maxScore.innerText = controller.maxScore;
+    $score.innerText = client.score;
+    $finalResult.hidden = false;
+    clear($ul);
+    clear($pergunta);
+}
+
 
 function stopClicks(){
     var lis = document.querySelectorAll('li');
@@ -84,5 +88,13 @@ $button.addEventListener('click', function(){
     clear($pergunta);
     questionsHandler();
 });
+
+$restartButon.addEventListener('click', function(){
+    questionController = JsonController.load();
+    this.hidden = true;
+    $finalResult.hidden = true;
+    client.resetScore();
+    questionsHandler();
+})
 
 questionsHandler();
