@@ -1,0 +1,97 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(81, 96, 142);
+    height:80px;
+}
+
+#header-content h1{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px blue;
+    line-height: 80px;
+}
+body{
+    background-color: rgba(81, 96, 142,0.5);
+
+}
+main{
+    width: 80%;
+    margin: auto;
+
+}
+
+#main-menu{
+    text-align: right;
+}
+
+#main-menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.legend{
+    color:white;
+}
+
+#project-section{
+    background-color: rgba(154, 170, 186,0.3);
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+    text-align: center;
+    color: rgb(88, 90, 98);
+    text-shadow: 1px 1px blue;
+}
+
+#project-section h2{
+    padding-bottom: 20px;
+}
+
+
+.project img{
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
+
+.project2 img{
+    background-color: black;
+}
+
+#project-section p{
+    width:268px;
+    text-align: center;
+    background-color: rgb(39, 43, 68);
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width: 1000px){
+    .project img{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .project a{
+        width: 40%;
+        margin: 0 auto;
+        display: block;
+    }
+
+
+    #project-section p{
+        text-align: center;
+        margin:auto;
+        width: 35%;
+        padding: 2.5%;
+        margin-bottom: 10px;
+        background-color: rgb(39, 43, 68)
+    }
+
+}
