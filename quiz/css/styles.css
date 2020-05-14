@@ -10,6 +10,7 @@ img{
 body{
     background-image: url("../imgs/bk5.png");
     background-position: center top;
+    background-repeat: no-repeat;
 }
 
 #header{
